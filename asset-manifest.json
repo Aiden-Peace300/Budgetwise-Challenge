@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Budgetwise-Challenge/static/css/main.31922440.css",
+    "main.js": "/Budgetwise-Challenge/static/js/main.eba9b870.js",
+    "static/media/photoOfAiden.png": "/Budgetwise-Challenge/static/media/photoOfAiden.9f32872455291ba7a7ae.png",
+    "static/media/Budgetwise_logo.png": "/Budgetwise-Challenge/static/media/Budgetwise_logo.3eb02d2414a63c6edbad.png",
+    "index.html": "/Budgetwise-Challenge/index.html",
+    "main.31922440.css.map": "/Budgetwise-Challenge/static/css/main.31922440.css.map",
+    "main.eba9b870.js.map": "/Budgetwise-Challenge/static/js/main.eba9b870.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31922440.css",
+    "static/js/main.eba9b870.js"
+  ]
+}
