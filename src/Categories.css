@@ -1,0 +1,32 @@
+.font {
+  font-weight: 500; 
+  font-size: 1rem;
+}
+
+.margin_bottom {
+  margin-bottom: 2rem;
+}
+
+.progress-bar-container {
+  height: 8px;
+  background-color: #ccc;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.gray {
+  color: gray
+}
+
+.green {
+  color: #53BD71;
+}
+
+.white {
+  color: white;
+}

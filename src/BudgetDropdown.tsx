@@ -4,6 +4,8 @@ import { GoTriangleDown } from "react-icons/go";
 import { CiShare2 } from "react-icons/ci";
 import { TbDotsVertical } from "react-icons/tb";
 import { FaPlus } from "react-icons/fa6";
+import Categories from "./Categories.tsx";
+import educationLogo from "./images/categorieLogos/educationLogo.png";
 
 export default function BudgetDropdown() {
   return (
@@ -24,6 +26,9 @@ export default function BudgetDropdown() {
           <TbDotsVertical className="share_icon" />
           <FaPlus className="icon_color" />
         </div>
+      </div>
+      <div className='categories'>
+        <Categories logo={educationLogo} title="Education" total={1000} spent={250} color="#41AEB7"/>
       </div>
     </>
   );

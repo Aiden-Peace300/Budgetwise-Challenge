@@ -6,6 +6,7 @@ div .budgetDropdown_container {
 
 .budgetDropdown_main_container {
   display: flex;
+  margin-bottom: 3rem;
 }
 
 .budgetDropdown_title {
@@ -64,4 +65,8 @@ div .budgetDropdown_container {
   padding: .63rem;
   background-color: #5157BF;
   border-radius: 50%;
+}
+
+.categories {
+  margin-left: 1rem;
 }
