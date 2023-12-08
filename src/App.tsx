@@ -4,6 +4,7 @@ import aidenPeace from './images/photoOfAiden.png';
 import caretPointingDownwards from './images/caret pointing downwards.png';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import SideNavbar from './SideNavbar.tsx';
+import BudgetDropdown from './BudgetDropdown.tsx';
 
 export default function App() {
   return (
@@ -40,15 +41,22 @@ export default function App() {
           </div>
         </header>
       </div>
-      <section id="services" className="services">
-        <div className="container">
-          <div className="skill-content">
-            <div className="skills">
+      <div className='menu'>
+        <section className="sideNavbar">
+          <div className="container">
+            <div className="sideNavbar-content">
               <SideNavbar />
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <section className="budgetDropdown">
+          <div className="container">
+            <div className="budgetDropdown-content">
+              <BudgetDropdown />
+            </div>
+          </div>
+        </section>
+      </div>
     </>
   );
 }
