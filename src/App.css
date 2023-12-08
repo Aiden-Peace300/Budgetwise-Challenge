@@ -7,6 +7,17 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.container {
+  height: 100%; /* Set height to 100% of the parent element */
+  /* Add any other necessary styles for the container */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +27,7 @@ body {
 
 /******** START OF CSS FOR NAV BAR *******/
 
-li,
+.nav__links li,
 a,
 .cta {
   font-weight: 500;

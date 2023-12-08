@@ -1,0 +1,32 @@
+.sideNarbar_container {
+  color: black; 
+  display: flex;
+}
+
+.sidebar_container {
+  width: 11%;
+  padding: 1rem 
+}
+
+.sidebar_content {
+  margin-top: 4rem 
+}
+
+.sidebar_content_list {
+  list-style-type: none;
+}
+
+.sidebar_text {
+  cursor: pointer;
+  font-size: 16px;
+  margin: 1rem 0;
+  padding-left: 1rem;
+  color: black
+}
+
+.sidebar_text.selected,
+.sidebar_text:hover {
+  font-weight: bold;
+  border-left: 3px solid black;
+}
+
