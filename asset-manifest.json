@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Budgetwise-Challenge/static/css/main.682312e8.css",
-    "main.js": "/Budgetwise-Challenge/static/js/main.baef7268.js",
+    "main.css": "/Budgetwise-Challenge/static/css/main.933cffe3.css",
+    "main.js": "/Budgetwise-Challenge/static/js/main.05f79093.js",
     "static/media/photoOfAiden.png": "/Budgetwise-Challenge/static/media/photoOfAiden.9f32872455291ba7a7ae.png",
     "static/media/Budgetwise_logo.png": "/Budgetwise-Challenge/static/media/Budgetwise_logo.3eb02d2414a63c6edbad.png",
     "static/media/housingLogo.png": "/Budgetwise-Challenge/static/media/housingLogo.eb8d7abe670453d7c52c.png",
@@ -10,11 +10,11 @@
     "static/media/miscellaneousLogo.png": "/Budgetwise-Challenge/static/media/miscellaneousLogo.a72a2f76e21cb3a3af05.png",
     "static/media/FoodLogo.png": "/Budgetwise-Challenge/static/media/FoodLogo.54b1c687a126fcc61965.png",
     "index.html": "/Budgetwise-Challenge/index.html",
-    "main.682312e8.css.map": "/Budgetwise-Challenge/static/css/main.682312e8.css.map",
-    "main.baef7268.js.map": "/Budgetwise-Challenge/static/js/main.baef7268.js.map"
+    "main.933cffe3.css.map": "/Budgetwise-Challenge/static/css/main.933cffe3.css.map",
+    "main.05f79093.js.map": "/Budgetwise-Challenge/static/js/main.05f79093.js.map"
   },
   "entrypoints": [
-    "static/css/main.682312e8.css",
-    "static/js/main.baef7268.js"
+    "static/css/main.933cffe3.css",
+    "static/js/main.05f79093.js"
   ]
 }
