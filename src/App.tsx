@@ -42,29 +42,27 @@ export default function App() {
           </div>
         </header>
       </div>
-      <div className='menu'>
-        <section className="sideNavbar">
-          <div className="container">
-            <div className="sideNavbar-content">
-              <SideNavbar />
-            </div>
+      <div>
+        <div className="menu">
+          <section className="sideNavbar">
+            <SideNavbar />
+          </section>
+          <div style={{display: 'flex', marginTop: '5rem', marginLeft: '1rem'}}>
+            <section className="budgetDropdown">
+              <div className="container">
+                <div className="budgetDropdown-content">
+                  <BudgetDropdown />
+                </div>
+              </div>
+            </section>
+            <section className="importantBudgetDetails">
+              <div className="container">
+                <div className="importantBudgetDetails-content">
+                  <ImportantBudgetDetails />
+                </div>
+              </div>
+            </section>
           </div>
-        </section>
-        <div style={{display: 'flex', marginTop: '5rem', marginLeft: '1.5rem'}}>
-          <section className="budgetDropdown">
-            <div className="container">
-              <div className="budgetDropdown-content">
-                <BudgetDropdown />
-              </div>
-            </div>
-          </section>
-          <section className="importantBudgetDetails">
-            <div className="container">
-              <div className="importantBudgetDetails-content">
-                <ImportantBudgetDetails />
-              </div>
-            </div>
-          </section>
         </div>
       </div>
     </>
