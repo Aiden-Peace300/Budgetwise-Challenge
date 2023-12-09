@@ -16,6 +16,7 @@ import officeLogo from "./images/categorieLogos/officeLogo.png";
 import petsLogo from "./images/categorieLogos/petsLogo.png";
 import shoppingcartLogo from "./images/categorieLogos/shoppingcartLogo.png";
 import subscriptionsLogo from "./images/categorieLogos/subscriptionsLogo.png";
+import TransportationLogo from "./images/categorieLogos/TransportationLogo.png";
 
 export default function BudgetDropdown() {
   return (
@@ -52,6 +53,7 @@ export default function BudgetDropdown() {
         <Categories logo={petsLogo} title="Office" total={'100'} spent={'0'} color="#783F05"/>
         <Categories logo={shoppingcartLogo} title="Shopping" total={'100'} spent={'20'} color="#386BBC"/>
         <Categories logo={subscriptionsLogo} title="Subscriptions" total={'50'} spent={'35'} color="#4F7F88"/>
+        <Categories logo={TransportationLogo} title="Transportation" total={'100'} spent={'30'} color="#FFB900"/>
       </div>
     </>
   );
