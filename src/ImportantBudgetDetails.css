@@ -1,8 +1,8 @@
 .overall_container {
   display: flex;
   margin-left: 6rem;
-  padding: 1rem 3rem;
-  border: 2px solid gray;
+  padding: 1rem 0;
+  border: 1.2px solid gray;
   border-radius: 20px;
   color: black;
   text-align: center;
@@ -14,8 +14,7 @@
 .spent_container,
 .available_container,
 .budget_container {
-  padding: 1rem
-
+  padding: 1rem 2rem;
 }
 
 .horizontal_line {
@@ -23,5 +22,29 @@
   text-align: center;
   margin-top: .6rem;
   color: black; 
-  border: 1px solid black;
+  border: .5px solid #8F8F8F;
+}
+
+.overall_spent_font,
+.overall_available_font, 
+.overall_budget_font {
+  font-size: .8rem;
+  font-weight: 550;
+  color: #8F8F8F;
+  padding-bottom: .3rem;
+}
+
+.overall_spent_amount_font,
+.overall_available_amount_font,
+.overall_budget_amount_font {
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green
 }
