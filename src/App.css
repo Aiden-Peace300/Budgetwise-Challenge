@@ -8,8 +8,7 @@ body {
 }
 
 .container {
-  height: 100%; /* Set height to 100% of the parent element */
-  /* Add any other necessary styles for the container */
+  height: 100%;
 }
 
 html, body {
@@ -134,3 +133,8 @@ header {
 }
 
 /******** END OF CSS FOR NAV BAR *******/
+
+.menu {
+  display: flex;
+  justify-content: row;
+}

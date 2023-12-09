@@ -1,0 +1,72 @@
+div .budgetDropdown_container {
+  margin-top: 5rem;
+  margin-left: 1.4rem;
+  display: flex;
+}
+
+.budgetDropdown_main_container {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.budgetDropdown_title {
+  width: 45vw;
+}
+
+.budgetDropdown_container2 {
+  margin-top: 5rem;
+  margin-left: 1.4rem;
+  display: flex;
+}
+
+.budgetDropdown_container3 {
+  border: 1px solid #53BD71;
+  display: flex;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  background-color: #E6F5EA;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.dropdown_icon,
+.selected_month {
+  color: #53BD71;
+  background-color: #E6F5EA;
+  cursor: pointer;
+}
+
+.dropdown_icon {
+  margin-left: 1rem;
+}
+
+.caret_icon2 {
+  margin-top: .5rem;
+  max-width: 2rem;
+  max-height: 1rem;
+  margin-left: 1rem;
+}
+
+.sharing_options {
+  display: flex;
+  margin-top: 6.6rem;
+}
+
+.share_icon {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.icon_color {
+  cursor: pointer;
+  font-size: 34px;
+  color: white;
+  padding: .63rem;
+  background-color: #5157BF;
+  border-radius: 50%;
+}
+
+.categories {
+  margin-left: 1rem;
+}
