@@ -16,7 +16,7 @@ export default function SideNavbar() {
             </ul>
           </nav>
         </div>
-        <div style={{ borderLeft: '1px solid #707070', height: '150vh', padding: '2rem' }}></div>
+        <div style={{ borderLeft: '1px solid #707070', height: '200vh', padding: '2rem' }}></div>
       </div>
     </>
   );
