@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Budgetwise-Challenge/static/css/main.933cffe3.css",
-    "main.js": "/Budgetwise-Challenge/static/js/main.05f79093.js",
+    "main.css": "/Budgetwise-Challenge/static/css/main.98eef968.css",
+    "main.js": "/Budgetwise-Challenge/static/js/main.32f3b35d.js",
     "static/media/photoOfAiden.png": "/Budgetwise-Challenge/static/media/photoOfAiden.9f32872455291ba7a7ae.png",
     "static/media/Budgetwise_logo.png": "/Budgetwise-Challenge/static/media/Budgetwise_logo.3eb02d2414a63c6edbad.png",
     "static/media/housingLogo.png": "/Budgetwise-Challenge/static/media/housingLogo.eb8d7abe670453d7c52c.png",
     "static/media/healthcareLogo.png": "/Budgetwise-Challenge/static/media/healthcareLogo.1384e9c3e016bcbdcc3d.png",
     "static/media/groceriesLogo.png": "/Budgetwise-Challenge/static/media/groceriesLogo.4e1638233c2230773bb1.png",
+    "static/media/bankLogo.png": "/Budgetwise-Challenge/static/media/bankLogo.3e4d5be9100323e4db52.png",
     "static/media/miscellaneousLogo.png": "/Budgetwise-Challenge/static/media/miscellaneousLogo.a72a2f76e21cb3a3af05.png",
     "static/media/FoodLogo.png": "/Budgetwise-Challenge/static/media/FoodLogo.54b1c687a126fcc61965.png",
     "index.html": "/Budgetwise-Challenge/index.html",
-    "main.933cffe3.css.map": "/Budgetwise-Challenge/static/css/main.933cffe3.css.map",
-    "main.05f79093.js.map": "/Budgetwise-Challenge/static/js/main.05f79093.js.map"
+    "main.98eef968.css.map": "/Budgetwise-Challenge/static/css/main.98eef968.css.map",
+    "main.32f3b35d.js.map": "/Budgetwise-Challenge/static/js/main.32f3b35d.js.map"
   },
   "entrypoints": [
-    "static/css/main.933cffe3.css",
-    "static/js/main.05f79093.js"
+    "static/css/main.98eef968.css",
+    "static/js/main.32f3b35d.js"
   ]
 }
