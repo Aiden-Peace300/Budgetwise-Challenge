@@ -5,6 +5,7 @@ import caretPointingDownwards from './images/caret pointing downwards.png';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import SideNavbar from './SideNavbar.tsx';
 import BudgetDropdown from './BudgetDropdown.tsx';
+import ImportantBudgetDetails from './ImportantBudgetDetails.tsx';
 
 export default function App() {
   return (
@@ -49,13 +50,22 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section className="budgetDropdown">
-          <div className="container">
-            <div className="budgetDropdown-content">
-              <BudgetDropdown />
+        <div style={{display: 'flex', marginTop: '5rem', marginLeft: '1.5rem'}}>
+          <section className="budgetDropdown">
+            <div className="container">
+              <div className="budgetDropdown-content">
+                <BudgetDropdown />
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+          <section className="importantBudgetDetails">
+            <div className="container">
+              <div className="importantBudgetDetails-content">
+                <ImportantBudgetDetails />
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
     </>
   );

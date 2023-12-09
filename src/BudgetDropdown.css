@@ -1,6 +1,4 @@
 div .budgetDropdown_container {
-  margin-top: 5rem;
-  margin-left: 1.4rem;
   display: flex;
 }
 
@@ -25,7 +23,7 @@ div .budgetDropdown_container {
   padding: .5rem 1rem;
   border-radius: 10px;
   background-color: #E6F5EA;
-  margin-left: 1.5rem;
+
   margin-top: 1rem;
 }
 
@@ -49,7 +47,7 @@ div .budgetDropdown_container {
 
 .sharing_options {
   display: flex;
-  margin-top: 6.6rem;
+  margin-top: 1.6rem;
 }
 
 .share_icon {
@@ -65,8 +63,4 @@ div .budgetDropdown_container {
   padding: .63rem;
   background-color: #5157BF;
   border-radius: 50%;
-}
-
-.categories {
-  margin-left: 1rem;
 }
