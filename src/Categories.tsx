@@ -18,17 +18,23 @@ const Categories: React.FC<CategoriesProps> = ({ logo, title, total, spent, colo
         Categories
       </p>
       <div>
-        <div style={{display: 'flex'}}>
-          <div style={{marginRight: '1rem'}}>
-            <img style={{borderRadius: '50%', backgroundColor: color, padding: '.3rem', maxWidth: '3rem'}} src={logo} />
-          </div>
-          <div>
-            <p className="font">{title}</p>
-            <div>
-              <p className='font gray' style={{ display: 'inline' }}>{'spent $'}</p>
-              <p className='font green' style={{ display: 'inline' }}>{`${spent} `}</p>
-              <p className='font gray' style={{ display: 'inline' }}>{' of $' + total}</p>
+        <div style={{display: 'flex', justifyContent: 'space-between' }}>
+          <div style={{display: 'flex', marginBottom: '.6rem'}}>
+            <div style={{marginRight: '1rem'}}>
+              <img style={{borderRadius: '50%', backgroundColor: color, padding: '.3rem', maxWidth: '3rem'}} src={logo} />
             </div>
+            <div>
+              <p className="font" style={{marginBottom: '.2rem'}}>{title}</p>
+              <div>
+                <p className='categories_font gray' style={{ display: 'inline' }}>{'spent '}</p>
+                <p className='categories_font green' style={{ display: 'inline' }}>{`$${spent} `}</p>
+                <p className='categories_font gray' style={{ display: 'inline' }}>{' of $' + total}</p>
+              </div>
+            </div>
+          </div>
+          <div style={{display: 'flex', flexDirection: 'column'}}>
+            <p className='categories_font green' style={{marginBottom: '.2rem'}}>{`$${progress}`}</p>
+            <p className='left_font gray' style={{marginLeft: '.35rem'}}>left</p>
           </div>
         </div>
         <div className="progress-bar-container">

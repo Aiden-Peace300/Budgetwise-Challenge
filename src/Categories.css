@@ -1,6 +1,18 @@
 .font {
-  font-weight: 500; 
   font-size: 1rem;
+}
+
+.categories_font {
+  font-size: .9rem;
+}
+
+.font,
+.categories_font {
+  font-weight: 600;
+}
+
+.left_font {
+  font-size: .8rem;
 }
 
 .margin_bottom {
@@ -12,6 +24,7 @@
   background-color: #ccc;
   border-radius: 2px;
   overflow: hidden;
+  margin: 0 1.5rem ;
 }
 
 .progress-bar {
