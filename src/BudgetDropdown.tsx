@@ -7,6 +7,7 @@ import { FaPlus } from "react-icons/fa6";
 import Categories from "./Categories.tsx";
 import educationLogo from "./images/categorieLogos/educationLogo.png";
 import entertainmentLogo from "./images/categorieLogos/entertainmentLogo.png";
+import FoodLogo from "./images/categorieLogos/FoodLogo.png";
 
 export default function BudgetDropdown() {
   return (
@@ -34,6 +35,7 @@ export default function BudgetDropdown() {
       </p>
         <Categories logo={educationLogo} title="Education" total={'100'} spent={'40'} color="#41AEB7"/>
         <Categories logo={entertainmentLogo} title="Entertainment" total={'50'} spent={'10'} color="#FF8301"/>
+        <Categories logo={FoodLogo} title="Food" total={'150'} spent={'68'} color="#213B80"/>
       </div>
     </>
   );
