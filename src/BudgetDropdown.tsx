@@ -6,6 +6,7 @@ import { TbDotsVertical } from "react-icons/tb";
 import { FaPlus } from "react-icons/fa6";
 import Categories from "./Categories.tsx";
 import educationLogo from "./images/categorieLogos/educationLogo.png";
+import entertainmentLogo from "./images/categorieLogos/entertainmentLogo.png";
 
 export default function BudgetDropdown() {
   return (
@@ -28,7 +29,11 @@ export default function BudgetDropdown() {
         </div>
       </div>
       <div className='categories'>
-        <Categories logo={educationLogo} title="Education" total={1000} spent={250} color="#41AEB7"/>
+      <p className="font margin_bottom" style={{ marginBottom: '2rem', marginLeft: '.5rem'}}>
+        Categories
+      </p>
+        <Categories logo={educationLogo} title="Education" total={'100'} spent={'40'} color="#41AEB7"/>
+        <Categories logo={entertainmentLogo} title="Entertainment" total={'50'} spent={'10'} color="#FF8301"/>
       </div>
     </>
   );

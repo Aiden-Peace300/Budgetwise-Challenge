@@ -4,24 +4,30 @@ import './Categories.css';
 interface CategoriesProps {
   logo: any
   title: string;
-  total: number;
-  spent: number;
+  total: string;
+  spent: string;
   color: string;
 }
 
 const Categories: React.FC<CategoriesProps> = ({ logo, title, total, spent, color }) => {
-  const progress = (spent / total) * 100;
+  const totalWithoutCommas = total.replace(/,/g, '');
+  const spentWithoutCommas = spent.replace(/,/g, '');
+
+  let progress = (Number(spentWithoutCommas) / Number(totalWithoutCommas)) * 100;
+  const left =  Number(totalWithoutCommas) - Number(spentWithoutCommas);
+
+
+  if(progress === 0) {
+    progress = 1;
+  }
 
   return (
-    <div>
-      <p className="font margin_bottom" style={{ marginBottom: '2rem' }}>
-        Categories
-      </p>
+    <div style={{marginLeft: '.60rem', marginTop: '2rem'}}>
       <div>
         <div style={{display: 'flex', justifyContent: 'space-between' }}>
           <div style={{display: 'flex', marginBottom: '.6rem'}}>
             <div style={{marginRight: '1rem'}}>
-              <img style={{borderRadius: '50%', backgroundColor: color, padding: '.3rem', maxWidth: '3rem'}} src={logo} />
+              <img style={{borderRadius: '50%', backgroundColor: color, padding: '.3rem', maxWidth: '2.5rem', marginTop: '.3rem'}} src={logo} />
             </div>
             <div>
               <p className="font" style={{marginBottom: '.2rem'}}>{title}</p>
@@ -33,7 +39,7 @@ const Categories: React.FC<CategoriesProps> = ({ logo, title, total, spent, colo
             </div>
           </div>
           <div style={{display: 'flex', flexDirection: 'column'}}>
-            <p className='categories_font green' style={{marginBottom: '.2rem'}}>{`$${progress}`}</p>
+            <p className='categories_font green' style={{marginBottom: '.2rem'}}>{`$${left}`}</p>
             <p className='left_font gray' style={{marginLeft: '.35rem'}}>left</p>
           </div>
         </div>
@@ -44,6 +50,7 @@ const Categories: React.FC<CategoriesProps> = ({ logo, title, total, spent, colo
           ></div>
         </div>
       </div>
+      <hr style={{ margin: '1rem 0', borderColor: '#EFECEC' }} />
     </div>
   );
 };
