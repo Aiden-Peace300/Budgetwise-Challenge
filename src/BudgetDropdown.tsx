@@ -11,6 +11,7 @@ import FoodLogo from "./images/categorieLogos/FoodLogo.png";
 import groceriesLogo from "./images/categorieLogos/groceriesLogo.png";
 import healthcareLogo from "./images/categorieLogos/healthcareLogo.png";
 import housingLogo from "./images/categorieLogos/housingLogo.png";
+import miscellaneousLogo from "./images/categorieLogos/miscellaneousLogo.png";
 
 export default function BudgetDropdown() {
   return (
@@ -42,6 +43,7 @@ export default function BudgetDropdown() {
         <Categories logo={groceriesLogo} title="Groceries" total={'200'} spent={'100'} color="#00BC38"/>
         <Categories logo={healthcareLogo} title="Healthcare" total={'100'} spent={'100'} color="#AF3F9D"/>
         <Categories logo={housingLogo} title="Housing" total={'1,750'} spent={'1,750'} color="#FF373C"/>
+        <Categories logo={miscellaneousLogo} title="Miscellaneous" total={'50'} spent={'0'} color="#B0866D"/>
       </div>
     </>
   );
