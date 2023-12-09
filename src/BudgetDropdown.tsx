@@ -41,7 +41,7 @@ export default function BudgetDropdown() {
         </div>
       </div>
       <div className='categories'>
-      <p className="font margin_bottom" style={{ marginBottom: '2rem', marginLeft: '.5rem'}}>
+      <p className="font margin_bottom" style={{ marginBottom: '2rem'}}>
         Categories
       </p>
         <Categories logo={educationLogo} title="Education" total={'100'} spent={'40'} color="#41AEB7"/>

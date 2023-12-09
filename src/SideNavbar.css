@@ -1,12 +1,13 @@
 .sideNarbar_container {
   color: black; 
   display: flex;
+  justify-content: space-around;
   width: 15rem;
 }
 
 .sidebar_container {
   width: 11%;
-  margin-right: 10.5rem; 
+  margin-right: 5.5rem; 
 }
 
 .sidebar_content {
@@ -15,15 +16,17 @@
 
 .sidebar_content_list {
   list-style-type: none;
-  width: 20rem;
+  width: 10rem;
 }
 
 .sidebar_text {
   cursor: pointer;
   font-size: 16px;
-  margin: 2rem 1rem;
+  margin: 2rem 0;
+  margin-right: 1rem;
   padding-left: 1rem;
-  color: black
+  color: black;
+  width: 10rem
 }
 
 .sidebar_text.selected,

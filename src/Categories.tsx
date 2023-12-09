@@ -1,8 +1,8 @@
 import React from 'react';
 import './Categories.css';
 
-interface CategoriesProps {
-  logo: any
+type CategoriesProps = {
+  logo: any;
   title: string;
   total: string;
   spent: string;
@@ -22,7 +22,7 @@ const Categories: React.FC<CategoriesProps> = ({ logo, title, total, spent, colo
   }
 
   return (
-    <div style={{marginLeft: '.60rem', marginTop: '2rem'}}>
+    <div style={{marginTop: '2rem'}}>
       <div>
         <div style={{display: 'flex', justifyContent: 'space-between' }}>
           <div style={{display: 'flex', marginBottom: '.6rem'}}>

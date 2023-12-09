@@ -136,5 +136,22 @@ header {
 
 .menu {
   display: flex;
-  justify-content: row;
+}
+
+.sideNavbar {
+  flex: .6;
+}
+
+.budgetDropdown {
+  flex: 1.6;
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+
+.importantBudgetDetails {
+  flex: 2;
+  width: 100%;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  margin-right: 3rem;
 }
