@@ -8,6 +8,7 @@ import Categories from "./Categories.tsx";
 import educationLogo from "./images/categorieLogos/educationLogo.png";
 import entertainmentLogo from "./images/categorieLogos/entertainmentLogo.png";
 import FoodLogo from "./images/categorieLogos/FoodLogo.png";
+import groceriesLogo from "./images/categorieLogos/groceriesLogo.png";
 
 export default function BudgetDropdown() {
   return (
@@ -36,6 +37,7 @@ export default function BudgetDropdown() {
         <Categories logo={educationLogo} title="Education" total={'100'} spent={'40'} color="#41AEB7"/>
         <Categories logo={entertainmentLogo} title="Entertainment" total={'50'} spent={'10'} color="#FF8301"/>
         <Categories logo={FoodLogo} title="Food" total={'150'} spent={'68'} color="#213B80"/>
+        <Categories logo={groceriesLogo} title="Groceries" total={'200'} spent={'100'} color="#00BC38"/>
       </div>
     </>
   );
