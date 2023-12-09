@@ -1,8 +1,8 @@
 import React from 'react';
 import './Categories.css';
 
-interface CategoriesProps {
-  logo: any
+type CategoriesProps = {
+  logo: any;
   title: string;
   total: string;
   spent: string;

@@ -1,4 +1,5 @@
 import './ImportantBudgetDetails.css';
+// import RecentTransactions from './RecentTransactions';
 
 export default function ImportantBudgetDetails() {
   const spent = '800';
@@ -7,7 +8,7 @@ export default function ImportantBudgetDetails() {
 
   return (
     <div>
-      <div className="overall_container">
+      <div className="overall_container" >
         <div className='spent_container'>
           <p className='overall_spent_font'>Spent</p>
           <span className='overall_spent_amount_font red'>{`$${spent}`}</span>

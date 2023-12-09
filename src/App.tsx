@@ -6,6 +6,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import SideNavbar from './SideNavbar.tsx';
 import BudgetDropdown from './BudgetDropdown.tsx';
 import ImportantBudgetDetails from './ImportantBudgetDetails.tsx';
+import RecentTransactions from './RecentTransactions.tsx';
 
 export default function App() {
   return (
@@ -47,7 +48,7 @@ export default function App() {
           <section className="sideNavbar">
             <SideNavbar />
           </section>
-          <div style={{display: 'flex', marginTop: '5rem', marginLeft: '1rem'}}>
+          {/* <div style={{display: 'flex', marginTop: '5rem', marginLeft: '1rem'}}> */}
             <section className="budgetDropdown">
               <div className="container">
                 <div className="budgetDropdown-content">
@@ -59,10 +60,11 @@ export default function App() {
               <div className="container">
                 <div className="importantBudgetDetails-content">
                   <ImportantBudgetDetails />
+                  <RecentTransactions />
                 </div>
               </div>
             </section>
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </>

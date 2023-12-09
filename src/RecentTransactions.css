@@ -1,0 +1,10 @@
+.recent_transactions_container {
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+
+.recent_transactions_lable_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

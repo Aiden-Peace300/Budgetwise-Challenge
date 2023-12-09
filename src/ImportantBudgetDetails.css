@@ -1,13 +1,10 @@
 .overall_container {
   display: flex;
-  margin-left: 6rem;
-  padding: 1rem 0;
-  border: 1.2px solid gray;
+  margin-left: 7rem;
+  padding: .4rem;
+  border: 1.5px solid #c1bcbc;
   border-radius: 20px;
   color: black;
-  text-align: center;
-  width: 100%;
-  margin-right: -2rem;
   justify-content: center;
 }
 
@@ -22,7 +19,7 @@
   text-align: center;
   margin-top: .6rem;
   color: black; 
-  border: .5px solid #8F8F8F;
+  border: .5px solid #c1bcbc;
 }
 
 .overall_spent_font,
