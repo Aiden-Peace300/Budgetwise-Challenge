@@ -45,3 +45,11 @@
 .green {
   color: green
 }
+
+.overall_budget_progress_bar_container {
+  height: 18px;
+  background-color: #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: .5rem;
+}

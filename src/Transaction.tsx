@@ -6,12 +6,12 @@ type CategoriesProps = {
   logo: any;
   item: string;
   color: string;
-  company: string;
+  category: string;
   priceOfItem: string;
   date: string;
 }
 
-const Transaction: React.FC<CategoriesProps> = ({ logo, item, color, company, priceOfItem, date }) => {
+const Transaction: React.FC<CategoriesProps> = ({ logo, item, color, category, priceOfItem, date }) => {
   return (
     <div className="transaction_container">
       <div className="recent_transactions_information">
@@ -20,7 +20,7 @@ const Transaction: React.FC<CategoriesProps> = ({ logo, item, color, company, pr
         </div>
         <div>
           <p className="recent_transactions_item">{item}</p>
-          <p className="recent_transactions_company">{company}</p>
+          <p className="recent_transactions_company">{category}</p>
         </div>
       </div>
       <div className='recent_transactions_details_container'>
