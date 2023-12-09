@@ -51,6 +51,7 @@ export default function BudgetDropdown() {
         <Categories logo={officeLogo} title="Office" total={'20'} spent={'0'} color="#DD7298"/>
         <Categories logo={petsLogo} title="Office" total={'100'} spent={'0'} color="#783F05"/>
         <Categories logo={shoppingcartLogo} title="Shopping" total={'100'} spent={'20'} color="#386BBC"/>
+        <Categories logo={subscriptionsLogo} title="Subscriptions" total={'50'} spent={'35'} color="#4F7F88"/>
       </div>
     </>
   );
