@@ -7,6 +7,7 @@ import SideNavbar from './SideNavbar.tsx';
 import BudgetDropdown from './BudgetDropdown.tsx';
 import ImportantBudgetDetails from './ImportantBudgetDetails.tsx';
 import RecentTransactions from './RecentTransactions.tsx';
+import BankAndCreditCardInformation from './BankAndCreditCardInformation.tsx';
 
 export default function App() {
   return (
@@ -61,6 +62,7 @@ export default function App() {
                 <div className="importantBudgetDetails-content">
                   <ImportantBudgetDetails />
                   <RecentTransactions />
+                  <BankAndCreditCardInformation />
                 </div>
               </div>
             </section>
