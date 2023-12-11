@@ -1,0 +1,100 @@
+.saving_overall_container {
+  margin-left: 7rem;
+}
+
+.saving_container {
+  display: flex;
+  flex-direction: column;
+  border: 1.5px solid #c1bcbc;
+  /* align-items: center; */
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+.saving_lable_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.saving_see_details {
+  color: purple;
+}
+
+.trip_container_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.saving_logo {
+  border-radius: 26%;
+  background-color: rgb(237, 236, 236);
+  margin: 1rem;
+}
+
+.saving_item {
+  font-weight: 550;
+  align-items: center;
+  font-weight: normal;
+}
+
+.saving_company {
+  font-size: .8rem;
+  font-weight: 550;
+  color: #707070;
+}
+
+.saving_details {
+  /* margin-right: 2rem; */
+  text-align: center;
+}
+
+.saving_caret_icon {
+  max-width: 2rem;
+  max-height: 1rem;
+}
+
+.saving_details_container {
+  display: flex;
+  flex-direction: column;
+  width: 21rem;
+}
+
+.saving_information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 70%; /* Use 100% width to fill the parent container */
+}
+
+.saving_title {
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.saving_progress_bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px; /* Adjust the width and height according to your preference */
+  height: 100px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 25px solid #53BD71; /* Set the color for the progress bar border */
+}
+
+.saving_progress_green {
+  color: #53BD71;
+}
+
+.trip_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
