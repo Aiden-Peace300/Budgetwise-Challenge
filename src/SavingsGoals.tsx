@@ -9,7 +9,7 @@ export default function SavingsGoals() {
     <div className="saving_overall_container">
       <div className="saving_lable_container">
         <h3 className='saving_title'>Saving Goals</h3>
-        <FaPlus />
+        <FaPlus className="fa_plus" />
       </div>
       <div className="saving_container">
         <div className="trip_container">
@@ -17,11 +17,12 @@ export default function SavingsGoals() {
           <h3 className='saving_item'>See details</h3>
         </div>
         <div className="trip_container_details">
-          <div className="saving_information">
-            <div className="saving_progress_bar" style={{padding: "2.9rem 3.5rem"}}></div>
-            <h1 className='saving_progress_green'>$300</h1>
-            <p>of $600 saved</p>
-            <p>this month</p>
+          <div className="saving_progress_bar">
+            <div className="saving_information">
+              <h1 className='saving_progress_green'>$300</h1>
+              <p>of $600 saved</p>
+              <p>this month</p>
+            </div>
           </div>
           <div className='saving_details_container'>
             <div className="saving_details">

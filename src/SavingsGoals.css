@@ -26,7 +26,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: .5rem;
 }
 
 .saving_logo {
@@ -39,6 +39,11 @@
   font-weight: 550;
   align-items: center;
   font-weight: normal;
+  cursor: pointer;
+}
+
+.fa_plus {
+  cursor: pointer;
 }
 
 .saving_company {
@@ -50,6 +55,7 @@
 .saving_details {
   /* margin-right: 2rem; */
   text-align: center;
+  width: auto;
 }
 
 .saving_caret_icon {
@@ -60,41 +66,61 @@
 .saving_details_container {
   display: flex;
   flex-direction: column;
-  width: 21rem;
+  width: 60%;
 }
 
 .saving_information {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
   position: relative;
-  width: 70%; /* Use 100% width to fill the parent container */
+  width: 70%;
+  text-align: center;
+  margin-top: 2.2rem;
+  margin-left: 1.2rem;
+  border-radius: 35px;
+  overflow: hidden; /* Ensure overflow is hidden to make border-radius visible */
 }
+
+.saving_progress_bar {
+  width: 8rem;
+  height: 8rem;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  background: conic-gradient(#53BD71 50%, gray 50%);
+  background-size: 100%;
+}
+
+.saving_information p {
+  font-size: .8rem
+}
+
+.saving_progress_bar::before {
+  content: '';
+  position: absolute;
+  top: 15%; /* Adjust the position to control the size of the transparent hole */
+  left: 15%; /* Adjust the position to control the size of the transparent hole */
+  width: 70%; /* Adjust the size to control the size of the transparent hole */
+  height: 70%; /* Adjust the size to control the size of the transparent hole */
+  background: conic-gradient(from 90deg, white 50%, white 50%),
+              linear-gradient(to right, gray 50%, #53BD71 50%);
+  border-radius: 50%;
+  z-index: 0;
+}
+
 
 .saving_title {
   font-size: 1rem;
   font-weight: 550;
 }
 
-.saving_progress_bar {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100px; /* Adjust the width and height according to your preference */
-  height: 100px;
-  border-radius: 50%;
-  background-color: transparent;
-  border: 25px solid #53BD71; /* Set the color for the progress bar border */
-}
 
 .saving_progress_green {
   color: #53BD71;
+  font-size: 1.3rem;
 }
 
 .trip_container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 4rem;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
 }
