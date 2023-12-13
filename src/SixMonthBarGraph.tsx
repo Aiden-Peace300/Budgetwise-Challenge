@@ -38,6 +38,11 @@ export default function SixMonthBarGraph() {
       }
     },
     scales: {
+      x: {
+        grid: {
+          display: false, // Set to false to hide the vertical grid lines
+        },
+      },
       y: {
         suggestedMin: 0,
         suggestedMax: 3000,
