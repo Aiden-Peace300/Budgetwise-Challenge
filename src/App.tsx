@@ -8,7 +8,7 @@ import BudgetDropdown from './BudgetDropdown.tsx';
 import ImportantBudgetDetails from './ImportantBudgetDetails.tsx';
 import RecentTransactions from './RecentTransactions.tsx';
 import BankAndCreditCardInformation from './BankAndCreditCardInformation.tsx';
-import SavingsGoals from './SavingsGoals.tsx';
+import SavingsGoals from './SavingGoals.tsx';
 
 export default function App() {
   return (
