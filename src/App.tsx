@@ -9,6 +9,7 @@ import ImportantBudgetDetails from './ImportantBudgetDetails.tsx';
 import RecentTransactions from './RecentTransactions.tsx';
 import BankAndCreditCardInformation from './BankAndCreditCardInformation.tsx';
 import SavingsGoals from './SavingGoals.tsx';
+import SixMonthBarGraph from './SixMonthBarGraph.tsx';
 
 export default function App() {
   return (
@@ -62,6 +63,7 @@ export default function App() {
               <div className="container">
                 <div className="importantBudgetDetails-content">
                   <ImportantBudgetDetails />
+                  <SixMonthBarGraph />
                   <RecentTransactions />
                   <BankAndCreditCardInformation />
                   <SavingsGoals />
