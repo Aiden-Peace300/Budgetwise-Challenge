@@ -22,6 +22,7 @@ export default function SixMonthBarGraph() {
     labels: ['Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
     datasets: [
       {
+        label: 'stuff',
         data: [1600, 1200, 1800, 1900, 1800, 1000],
         backgroundColor: 'aqua',
         borderColor: 'black',
@@ -31,12 +32,17 @@ export default function SixMonthBarGraph() {
   };
 
   const options = {
+    plugins: {
+      legend: {
+        display: false
+      }
+    },
     scales: {
       y: {
         suggestedMin: 0,
         suggestedMax: 3000,
         ticks: { stepSize: 1500, callback: (value) => (value === 0 || value === 1500 || value === 3000 ? value : '') },
-      }
+      },
     }
   };
 
