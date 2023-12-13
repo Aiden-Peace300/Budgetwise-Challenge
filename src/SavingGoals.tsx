@@ -1,5 +1,5 @@
 import { FaPlus } from "react-icons/fa";
-import './SavingsGoals.css';
+import './SavingGoals.css';
 
 export default function SavingsGoals() {
   const totalSavingsMsg = `Total savings: $300 of $3,000 `;
