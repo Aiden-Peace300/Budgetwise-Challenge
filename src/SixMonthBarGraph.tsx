@@ -23,7 +23,7 @@ export default function SixMonthBarGraph() {
     datasets: [
       {
         label: 'Utilities',
-        data: [480, 600, 750, 800, 900, 500],
+        data: [480, 600, 750, 900, 800, 500],
         backgroundColor: '#009EDF',
         borderWidth: 0,
         stack: 'stack',
@@ -31,7 +31,7 @@ export default function SixMonthBarGraph() {
       },
       {
         label: 'Housing',
-        data: [300, 180, 250, 0, 0, 0],
+        data: [300, 180, 250, 250, 250, 100],
         backgroundColor: '#FF5733',
         borderWidth: 0,
         stack: 'stack',
@@ -39,7 +39,7 @@ export default function SixMonthBarGraph() {
       },
       {
         label: 'Entertainment',
-        data: [200, 130, 400, 0, 0, 0],
+        data: [200, 130, 400, 450, 225, 100],
         backgroundColor: '#FF8301',
         borderWidth: 0,
         stack: 'stack',
@@ -47,7 +47,7 @@ export default function SixMonthBarGraph() {
       },      
       {
         label: 'transportation',
-        data: [350, 70, 300, 0, 0, 0],
+        data: [350, 70, 300, 300, 300, 100],
         backgroundColor: '#FFB900',
         borderWidth: 0,
         stack: 'stack',
@@ -55,7 +55,7 @@ export default function SixMonthBarGraph() {
       },
       {
         label: 'Food',
-        data: [100, 100, 70, 0, 0, 0],
+        data: [100, 100, 70, 125, 125, 100],
         backgroundColor: '#213B80',
         borderWidth: 0,
         stack: 'stack',
@@ -63,7 +63,7 @@ export default function SixMonthBarGraph() {
       },
       {
         label: 'Other',
-        data: [250, 250, 250, 0, 0, 0],
+        data: [250, 250, 250, 250, 300, 150],
         backgroundColor: '#984F88',
         borderWidth: 0,
         stack: 'stack',
