@@ -1,4 +1,7 @@
 .six_month_bar_graph_container {
   margin-left: 7rem;
   margin-top: 1rem;
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 1rem;
 }
