@@ -3,7 +3,7 @@ import logo from './images/Budgetwise_logo.png';
 import aidenPeace from './images/photoOfAiden.png';
 import caretPointingDownwards from './images/caret pointing downwards.png';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import SideNavbar from './SideNavbar.tsx';
+import SideNavbar from './SideNavigationBar.tsx';
 import MonthlyBudgetApril2022 from './MonthlyBudgetApril2022.tsx';
 import ImportantBudgetDetails from './ImportantBudgetDetails.tsx';
 import RecentTransactions from './RecentTransactions.tsx';
