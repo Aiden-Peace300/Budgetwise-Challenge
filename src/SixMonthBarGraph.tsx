@@ -22,28 +22,45 @@ export default function SixMonthBarGraph() {
     labels: ['Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
     datasets: [
       {
-        label: 'stuff',
-        data: [1600, 1200, 1800, 1900, 1800, 1000],
-        backgroundColor: 'aqua',
-        borderColor: 'black',
-        borderWidth: 1,
-      }
+        label: 'Utilities',
+        data: [500, 1200, 600, 800, 900, 500],
+        backgroundColor: '#009EDF',
+        borderWidth: 0,
+        stack: 'stack',
+        barThickness: 25,
+      },
+      {
+        label: 'Housing',
+        data: [300, 1000, 400, 200, 400, 200],
+        backgroundColor: '#FF5733',
+        borderWidth: 0,
+        stack: 'stack',
+        barThickness: 25,
+      },
     ]
   };
 
   const options = {
+    aspectRatio: 1,
     plugins: {
       legend: {
-        display: false
+        display: true,
+        position: 'bottom' as 'bottom',
+        labels: {
+          usePointStyle: true,
+          boxWidth: 2,
+          boxHeight: 4
+        },
       }
     },
     scales: {
       x: {
         grid: {
-          display: false, // Set to false to hide the vertical grid lines
+          display: false, 
         },
       },
       y: {
+        height: '60rem',
         suggestedMin: 0,
         suggestedMax: 3000,
         ticks: { stepSize: 1500, callback: (value) => (value === 1500 || value === 3000 ? value : '') },
@@ -56,6 +73,7 @@ export default function SixMonthBarGraph() {
       <Bar
         data={data}
         options={options}
+        style={{width: '90%'}}
       />
     </div>
   );
