@@ -25,18 +25,16 @@ html, body {
 }
 
 /******** START OF CSS FOR NAV BAR *******/
-
-.nav__links li,
-a,
-.cta {
-  font-weight: 500;
-  font-size: 16px;
-  color: #707070;
-  text-decoration: none;
+.logo {
+  max-width: 1.5rem;
+  max-height: 1.2rem;
 }
 
-.cta {
-  display: inline-block;
+.budgetwise_text {
+  margin-left: .7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 3rem;
 }
 
 header {
@@ -54,24 +52,20 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar {
+.navigation_bar_container {
   display: flex;
   justify-content: flex-start;
 }
 
-.logo {
-  max-width: 1.5rem;
-  max-height: 1.2rem;
+.nav_links li,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #707070;
+  text-decoration: none;
 }
 
-.budgetwise_text {
-  margin-left: .7rem;
-  font-size: 1rem;
-  font-weight: 600;
-  margin-right: 3rem;
-}
-
-.logo_class {
+.logo_container {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -80,7 +74,7 @@ header {
   margin: .2rem 0;
 }
 
-.nav__links {
+.nav_links {
   margin-left: 2rem;
   list-style: none;
   display: flex;
@@ -88,16 +82,16 @@ header {
   margin-left: auto;
 }
 
-.nav__links li {
+.nav_links li {
   display: inline-block;
   padding: 0 20px;
 }
 
-.nav__links li a {
+.nav_links li a {
   transition: all 0.3 ease 0s;
 }
 
-.nav__links li a:hover {
+.nav_links li a:hover {
   color: #5157BF;
   text-decoration: underline;
 }
@@ -134,24 +128,27 @@ header {
 
 /******** END OF CSS FOR NAV BAR *******/
 
-.menu {
+/******** START OF CSS FOR HOMEPAGE *******/
+.homepage_container {
   display: flex;
 }
 
-.sideNavbar {
+.side_navigation_bar_container {
   flex: .6;
 }
 
-.budgetDropdown {
+.budget_dropdown_container {
   flex: 1.6;
   margin-top: 5rem;
   margin-left: 1rem;
 }
 
-.importantBudgetDetails {
+.important_budget_details_container {
   flex: 2;
   width: 100%;
   margin-top: 5rem;
   margin-left: 1rem;
   margin-right: 3rem;
 }
+
+/******** END OF CSS FOR HOMEPAGE *******/
