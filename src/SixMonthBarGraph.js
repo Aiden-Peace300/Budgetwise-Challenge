@@ -77,7 +77,6 @@ export default function SixMonthBarGraph() {
   const options = {
     xAxes: [{
      gridLines: {
-        borderDash: [8, 4],
         color: "#348632"
       }
     }],
@@ -106,7 +105,6 @@ export default function SixMonthBarGraph() {
         },
       },
       y: {
-        border:{dash: [4, 4]},
         beginAtZero: true,
         suggestedMin: 0,
         suggestedMax: 3000,
@@ -118,11 +116,10 @@ export default function SixMonthBarGraph() {
             return '';
           },
           display: true,
-          color: '#838BD3', 
+          color: '#838BD3',
         },
         grid: {
           color: '#838BD3',
-          borderDash: [2, 3],
           drawTicks: false,
           drawBorder: false,
           display: true,
@@ -134,6 +131,12 @@ export default function SixMonthBarGraph() {
 
   return (
     <div className='six_month_bar_graph_container'>
+      <div className='line-container'>
+        <div className='two_k'>2K Budget</div>
+        <div className='line'></div>
+        <div className='diagonal_line'></div>
+        <div className='line_2'></div>
+      </div>
       <Bar data={data} options={options} style={{ width: '90%' }} />
     </div>
   );
