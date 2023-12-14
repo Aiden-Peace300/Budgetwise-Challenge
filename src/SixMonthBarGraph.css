@@ -5,3 +5,57 @@
   border-radius: 25px;
   padding: 1rem;
 }
+
+.six_month_bar_graph_container {
+  position: relative;
+}
+
+.line-container {
+  position: absolute;
+  width: 100%;
+}
+
+.line {
+  position: absolute;
+  left: 1;
+  right: -1;
+  margin-left: 9rem;
+  border-top: 2px dotted #838BD3;
+  transform: translateY(3000%);
+  width: 50%;
+}
+
+.two_k {
+  position: absolute;
+  color: #838BD3;
+  font-size: .8rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 17rem;
+  transform: translateY(200%);
+  width: 23%;
+}
+
+
+.line_2 {
+  position: absolute;
+  left: 1;
+  right: -1;
+  margin-left: 4rem;
+  margin-top: 2.5rem;
+  border-top: 2px dotted #838BD3;
+  transform: translateY(3000%);
+  width: 15%;
+}
+
+.diagonal_line {
+  position: absolute;
+  left: 7rem;
+  top: 0;
+  width: 2.5rem;
+  height: 100%;
+  margin-top: 4.9rem;
+  margin-right: 10rem;
+  border-top: 2px dotted #838BD3;
+  transform: rotate(118deg);
+}
