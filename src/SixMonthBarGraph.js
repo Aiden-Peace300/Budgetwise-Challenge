@@ -123,7 +123,7 @@ export default function SixMonthBarGraph() {
           drawTicks: false,
           drawBorder: false,
           display: true,
-          lineWidth: 1, 
+          lineWidth: .5, 
         },
       },
     },
