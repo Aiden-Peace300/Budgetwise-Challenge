@@ -9,7 +9,7 @@ import ImportantBudgetDetails from './ImportantBudgetDetails.tsx';
 import RecentTransactions from './RecentTransactions.tsx';
 import BankAndCreditCardInformation from './BankAndCreditCardInformation.tsx';
 import SavingsGoals from './SavingGoals.tsx';
-import SixMonthBarGraph from './SixMonthBarGraph.tsx';
+import SixMonthBarGraph from './SixMonthBarGraph.js';
 
 export default function App() {
   return (

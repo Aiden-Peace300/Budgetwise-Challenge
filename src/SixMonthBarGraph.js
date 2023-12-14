@@ -8,6 +8,7 @@ import {
   Legend
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
+import { ChartOptions } from 'chart.js';
 
 ChartJS.register(
   BarElement,
@@ -16,6 +17,7 @@ ChartJS.register(
   Tooltip,
   Legend
 )
+
 export default function SixMonthBarGraph() {
 
   const data = {
@@ -77,35 +79,53 @@ export default function SixMonthBarGraph() {
     plugins: {
       legend: {
         display: true,
-        position: 'bottom' as 'bottom',
+        position: 'bottom',
         labels: {
           usePointStyle: true,
           boxWidth: 2,
-          boxHeight: 4
+          boxHeight: 4,
         },
-      }
+      },
     },
     scales: {
       x: {
+        ticks: {
+          color: '#838BD3', 
+          display: true,
+        },
         grid: {
-          display: false, 
+          borderColor: 'white', // White color for the axis line
+          drawBorder: false,
+          display: false,
         },
       },
       y: {
+        beginAtZero: true,
         suggestedMin: 0,
         suggestedMax: 3000,
-        ticks: { stepSize: 1500, callback: (value) => (value === 1500 || value === 3000 ? value : '') },
+        ticks: {
+          stepSize: 1500,
+          callback: (value) => {
+            if (value === 1500) return '1.5k';
+            if (value === 3000) return '3k';
+            return '';
+          },
+          display: true,
+          color: '#838BD3', 
+        },
+        grid: {
+          borderColor: 'white', // White color for the axis line
+          drawTicks: false,
+          drawBorder: true,
+          display: true
+        },
       },
-    }
+    },
   };
 
   return (
     <div className='six_month_bar_graph_container'>
-      <Bar
-        data={data}
-        options={options}
-        style={{width: '90%'}}
-      />
+      <Bar data={data} options={options} style={{ width: '90%' }} />
     </div>
   );
 }
