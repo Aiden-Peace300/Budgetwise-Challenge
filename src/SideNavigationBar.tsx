@@ -3,9 +3,9 @@ import './SideNavigationBar.css'
 /************************************************************************
  * SideNavigationBar.tsx:
  * 
- * React component representing the sidebar navigation bar in the Budgetwise
- * web application. It displays various navigation options such as Overview,
- * Budget, Transaction, Trends, Saving Goals, and Alerts.
+ * SideNavigationBar component representing the sidebar navigation bar in 
+ * the Budgetwise web application. It displays various navigation options 
+ * such as Overview, Budget, Transaction, Trends, Saving Goals, and Alerts.
  ************************************************************************/
 export default function SideNavbar() {
   return (
