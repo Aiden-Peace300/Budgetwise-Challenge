@@ -1,23 +1,26 @@
-div .budgetDropdown_container {
-  display: flex;
-}
+/******** START OF CSS FOR budget_dropdown_main_container CONTENT *******/ 
 
-.budgetDropdown_main_container {
+.budget_dropdown_main_container {
   display: flex;
   margin-bottom: 3rem;
 }
 
-.budgetDropdown_title {
+.budget_dropdown_title {
   width: 45vw;
 }
 
-.budgetDropdown_container2 {
-  margin-top: 5rem;
-  margin-left: 1.4rem;
+div .budgetDropdown_container {
   display: flex;
 }
 
-.budgetDropdown_container3 {
+.second_caret_icon {
+  margin-top: .5rem;
+  max-width: 2rem;
+  max-height: 1rem;
+  margin-left: 1rem;
+}
+
+.month_dropdown_menu {
   border: 1px solid #53BD71;
   display: flex;
   padding: .5rem 1rem;
@@ -38,14 +41,7 @@ div .budgetDropdown_container {
   margin-left: 1rem;
 }
 
-.caret_icon2 {
-  margin-top: .5rem;
-  max-width: 2rem;
-  max-height: 1rem;
-  margin-left: 1rem;
-}
-
-.sharing_options {
+.sharing_options_container {
   display: flex;
   margin-top: 1.6rem;
 }
@@ -63,4 +59,12 @@ div .budgetDropdown_container {
   padding: .63rem;
   background-color: #5157BF;
   border-radius: 50%;
+}
+
+/******** START OF CSS FOR budget_dropdown_main_container CONTENT *******/ 
+
+.categories_font {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }

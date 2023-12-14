@@ -1,5 +1,5 @@
 import React from 'react';
-import './Categories.css';
+import './Category.css';
 
 type CategoriesProps = {
   logo: any;

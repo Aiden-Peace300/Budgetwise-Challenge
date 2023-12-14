@@ -1,8 +1,3 @@
-/************************************
-The font-family property specifies 
-the font to be used for the text 
-inside the body 
-************************************/
 body {
   font-family: 'Outfit', sans-serif;
 }
