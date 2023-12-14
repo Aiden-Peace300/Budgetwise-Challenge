@@ -23,19 +23,51 @@ export default function SixMonthBarGraph() {
     datasets: [
       {
         label: 'Utilities',
-        data: [500, 1200, 600, 800, 900, 500],
+        data: [480, 600, 600, 800, 900, 500],
         backgroundColor: '#009EDF',
         borderWidth: 0,
         stack: 'stack',
-        barThickness: 25,
+        barThickness: 20,
       },
       {
         label: 'Housing',
-        data: [300, 1000, 400, 200, 400, 200],
+        data: [300, 180, 0, 0, 0, 0],
         backgroundColor: '#FF5733',
         borderWidth: 0,
         stack: 'stack',
-        barThickness: 25,
+        barThickness: 20,
+      },
+      {
+        label: 'Entertainment',
+        data: [200, 130, 0, 0, 0, 0],
+        backgroundColor: '#FF8301',
+        borderWidth: 0,
+        stack: 'stack',
+        barThickness: 20,
+      },      
+      {
+        label: 'transportation',
+        data: [350, 70, 0, 0, 0, 0],
+        backgroundColor: '#FFB900',
+        borderWidth: 0,
+        stack: 'stack',
+        barThickness: 20,
+      },
+      {
+        label: 'Food',
+        data: [100, 100, 0, 0, 0, 0],
+        backgroundColor: '#213B80',
+        borderWidth: 0,
+        stack: 'stack',
+        barThickness: 20,
+      },
+      {
+        label: 'Other',
+        data: [250, 250, 0, 0, 0, 0],
+        backgroundColor: '#984F88',
+        borderWidth: 0,
+        stack: 'stack',
+        barThickness: 20,
       },
     ]
   };
@@ -60,7 +92,6 @@ export default function SixMonthBarGraph() {
         },
       },
       y: {
-        height: '60rem',
         suggestedMin: 0,
         suggestedMax: 3000,
         ticks: { stepSize: 1500, callback: (value) => (value === 1500 || value === 3000 ? value : '') },
