@@ -75,6 +75,12 @@ export default function SixMonthBarGraph() {
   };
 
   const options = {
+    xAxes: [{
+     gridLines: {
+        borderDash: [8, 4],
+        color: "#348632"
+      }
+    }],
     aspectRatio: 1,
     plugins: {
       legend: {
@@ -94,12 +100,13 @@ export default function SixMonthBarGraph() {
           display: true,
         },
         grid: {
-          borderColor: 'white', // White color for the axis line
+          borderColor: 'white',
           drawBorder: false,
           display: false,
         },
       },
       y: {
+        border:{dash: [4, 4]},
         beginAtZero: true,
         suggestedMin: 0,
         suggestedMax: 3000,
@@ -114,10 +121,12 @@ export default function SixMonthBarGraph() {
           color: '#838BD3', 
         },
         grid: {
-          borderColor: 'white', // White color for the axis line
+          color: '#838BD3',
+          borderDash: [2, 3],
           drawTicks: false,
-          drawBorder: true,
-          display: true
+          drawBorder: false,
+          display: true,
+          lineWidth: 1, 
         },
       },
     },
