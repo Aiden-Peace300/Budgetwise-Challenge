@@ -1,14 +1,23 @@
 import './RecentTransactions.css';
+
+// Importing logos for different transaction categories
 import FoodLogo from './images/recentTransactionsLogos/Food_TansactionLogo.png';
 import EducationLogo from './images/recentTransactionsLogos/Education_TansactionLogo.png';
 import GroceriesLogo from './images/recentTransactionsLogos/Groceries_TansactionLogo.png';
 import ShoppingLogo from './images/recentTransactionsLogos/Shopping_TansactionLogo.png';
 import Transaction from './Transaction';
 
+/************************************************************************
+ * RecentTransactions.tsx:
+ * 
+ * RecentTransactions renders a list of recent transactions. It utilizes 
+ * external logos for each transaction category and includes a Transaction 
+ * component to display details.
+ ************************************************************************/
 export default function RecentTransactions() {
   return (
     <div className="recent_transactions_container">
-      <div className="recent_transactions_lable_container">
+      <div className="recent_transactions_label_container">
         <h3 className='recent_transactions_title'>Recent Transactions</h3>
         <p>See all</p>
       </div>
