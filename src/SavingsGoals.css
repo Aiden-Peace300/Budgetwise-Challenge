@@ -53,7 +53,6 @@
 }
 
 .saving_details {
-  /* margin-right: 2rem; */
   text-align: center;
   width: auto;
 }
@@ -76,7 +75,7 @@
   margin-top: 2.2rem;
   margin-left: 1.2rem;
   border-radius: 35px;
-  overflow: hidden; /* Ensure overflow is hidden to make border-radius visible */
+  overflow: hidden; 
 }
 
 .saving_progress_bar {
