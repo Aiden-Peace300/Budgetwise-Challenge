@@ -10,6 +10,7 @@ import {
 import { Bar } from 'react-chartjs-2';
 import { ChartOptions } from 'chart.js';
 
+// Registering chart-related components with ChartJS
 ChartJS.register(
   BarElement,
   CategoryScale,
@@ -18,8 +19,18 @@ ChartJS.register(
   Legend
 )
 
+/************************************************************************
+ * SixMonthBarGraph.js:
+ * 
+ * This file is in JavaScript (.js) rather than TypeScript (.tsx) to avoid
+ * TypeScript type checking for certain properties such as xAxes, yAxes, and
+ * ChartOptions in the options object. The chart-related components are 
+ * registered withChartJS, and the components from 'react-chartjs-2' are 
+ * used for rendering the bar chart.
+ * 
+  ************************************************************************/
 export default function SixMonthBarGraph() {
-
+  // Data for the bar chart
   const data = {
     labels: ['Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
     datasets: [
@@ -74,6 +85,7 @@ export default function SixMonthBarGraph() {
     ]
   };
 
+  // Options for configuring the appearance of the chart
   const options = {
     xAxes: [{
      gridLines: {
@@ -132,6 +144,7 @@ export default function SixMonthBarGraph() {
   return (
     <div className='six_month_bar_graph_container'>
       <div className='line-container'>
+        {/* THIS IS FOR 2k MARKER */}
         <div className='two_k'>2K Budget</div>
         <div className='line'></div>
         <div className='diagonal_line'></div>

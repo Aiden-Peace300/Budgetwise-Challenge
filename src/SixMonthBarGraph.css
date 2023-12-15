@@ -6,6 +6,9 @@
   padding: 1rem;
 }
 
+/******** START OF CSS FOR 2K MARKER *******/
+/* IMPORTANT: 2K MARKER WILL ONLY LOOK GOOD 
+   FOR SCREENS AT 15 INCHES. */
 .six_month_bar_graph_container {
   position: relative;
 }
@@ -59,3 +62,5 @@
   border-top: 2px dotted #838BD3;
   transform: rotate(118deg);
 }
+
+/******** END OF CSS FOR 2K MARKER *******/
