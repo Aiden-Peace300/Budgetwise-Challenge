@@ -1,11 +1,11 @@
 # Budgetwise Web App
 
-[![Budgetwise Logo](src/images/BudgetwiseReadmePhoto.png)](https://github.com/Aiden-Peace300/Budgetwise-Challenge/deployments/github-pages)
+[![Budgetwise GIF](src/images/BudgetwiseGif.gif)](https://aiden-peace300.github.io/Budgetwise-Challenge/)
 
 
 ## Overview
 
-This project is a desktop-friendly web app developed as a personal initiative to demonstrate my skills and interest in web development. The primary goal is to use this project as an opportunity to apply for the internship at Budgetwise. While the project is mostly made in TypeScript, it serves as a testament to my abilities in creating responsive and visually appealing web applications.
+This TypeScript project is a desktop-friendly web app developed as a personal initiative to demonstrate my skills and interest in web development. The primary goal is to use this project as an opportunity to apply for the internship at Budgetwise. This project serves as a testament to my abilities in creating visually appealing web applications.
 
 ## Features
 
