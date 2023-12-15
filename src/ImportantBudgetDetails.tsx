@@ -1,6 +1,19 @@
 import './ImportantBudgetDetails.css';
-// import RecentTransactions from './RecentTransactions';
 
+/************************************************************************
+ * ImportantBudgetDetails.tsx:
+ * 
+ * The 'ImportantBudgetDetails' component is responsible for displaying
+ * essential budget details within the Budgetwise web application. It 
+ * includes information such as the amount spent, available funds, and the
+ * overall budget for the card the user provides as of now the values are 
+ * static.
+ * 
+ * The component calculates spending progress, adjusts numerical formatting,
+ * and presents the data with relevant styling. It also features a 
+ * progress bar reflecting the proportion of the budget spent.
+ * 
+ ************************************************************************/
 export default function ImportantBudgetDetails() {
   const spent = '800';
   const available = '1,200';

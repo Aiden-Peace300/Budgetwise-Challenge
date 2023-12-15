@@ -1,6 +1,14 @@
 import { FaPlus } from "react-icons/fa";
 import './SavingGoals.css';
 
+/************************************************************************
+ * SavingsGoals.tsx:
+ * 
+ * SavingsGoals.tsx represents a component for displaying savings goals. 
+ * It includes a title, a button for adding new goals, and details about 
+ * a specific savings goal, such as progress and total savings.
+ * 
+ ************************************************************************/
 export default function SavingsGoals() {
   const totalSavingsMsg = `Total savings: $300 of $3,000 `;
   const totalSavingsMsg1 = `by April 15, 2023`;

@@ -1,4 +1,4 @@
-.sideNarbar_container {
+.side_navigation_bar_container {
   color: black; 
   display: flex;
   justify-content: space-around;
@@ -33,5 +33,11 @@
 .sidebar_text:hover {
   font-weight: bold;
   border-left: 3px solid black;
+}
+
+.sidebar_line {
+  border-left: 1px solid #707070; 
+  height: 200vh; 
+  margin-right: 1rem;
 }
 

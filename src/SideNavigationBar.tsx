@@ -1,9 +1,16 @@
-import './SideNavbar.css'
+import './SideNavigationBar.css'
 
+/************************************************************************
+ * SideNavigationBar.tsx:
+ * 
+ * SideNavigationBar component representing the sidebar navigation bar in 
+ * the Budgetwise web application. It displays various navigation options 
+ * such as Overview, Budget, Transaction, Trends, Saving Goals, and Alerts.
+ ************************************************************************/
 export default function SideNavbar() {
   return (
-    <>
-      <div className="sideNarbar_container">
+    <div>
+      <div className="side_navigation_bar_container">
         <div className="sidebar_container">
           <nav className="sidebar_content">
             <ul className="sidebar_content_list">
@@ -16,8 +23,8 @@ export default function SideNavbar() {
             </ul>
           </nav>
         </div>
-        <div style={{ borderLeft: '1px solid #707070', height: '200vh', marginRight: '1rem'}}></div>
+        <div className='sidebar_line'></div>
       </div>
-    </>
+    </div>
   );
 }

@@ -1,7 +1,16 @@
-import caretPointingDownwards from './images/caret pointing downwards.png';
+import caretPointingDownwards from './images/caret pointing upwards.png';
 import bankLogo from './images/bankLogo.png';
 import './BankAndCreditCardInformation.css';
 
+/************************************************************************
+ * BankAndCreditCardInformation.tsx:
+ * 
+ * BankAndCreditCardInformation component that will for displaying bank 
+ * and credit card information. It includes the bank's name, the last four 
+ * digits of the card, and the account balance. Visual elements such as 
+ * logos and icons are used to enhance the user interface.
+ * 
+ ************************************************************************/
 export default function BankAndCreditCardInformation() {
   const bank = 'Bank of America';
   const lastFourDigitsOfCard = '... 4765';
@@ -16,7 +25,7 @@ export default function BankAndCreditCardInformation() {
       <div className="bank_container">
         <div className="recent_bank_information">
           <div className='recent_bank_logo_container'>
-            <img className="recent_bank_logo" style={{maxWidth: '3rem', maxHeight: '4rem'}} src={bankLogo} />
+            <img className="recent_bank_logo" src={bankLogo} />
           </div>
           <div>
             <p className="recent_bank_item">{bank}</p>
